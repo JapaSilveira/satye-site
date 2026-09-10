@@ -115,10 +115,8 @@ a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 0.
 .footer { border-top: 1px solid var(--sand); padding: 2.5rem 0 3rem; color: var(--muted); font-size: .84rem; }
 .footer p { margin: 0 0 .7rem; }
 .footer .legal { margin-top: 1.2rem; }
-.footer__nav {
-  display: flex; justify-content: flex-end; align-items: baseline; gap: 1.5rem;
-  margin-top: 2.2rem; padding-top: 1.2rem; border-top: 1px solid rgba(201, 191, 169, 0.5);
-}
+.footer__nav { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; }
+.footer__nav p { margin: 0; }
 .footer__nav .current { color: var(--text); }
 .footer__nav .access { color: var(--muted); }
 .footer__nav .access:hover { color: var(--petrol); }
