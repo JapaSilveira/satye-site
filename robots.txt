@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /acesso/
 Sitemap: https://satyeinvestments.com/sitemap.xml
