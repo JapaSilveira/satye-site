@@ -82,6 +82,11 @@ a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 0.
   color: var(--muted); border: 1px solid var(--sand); padding: .35rem .7rem; border-radius: 2px;
 }
 .lang:hover { color: var(--petrol); border-color: var(--petrol); text-decoration: none; }
+.access-top {
+  font-size: .74rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--sand); padding: .35rem .8rem; border-radius: 2px;
+}
+.access-top:hover { color: var(--petrol); border-color: var(--petrol); text-decoration: none; }
 
 /* ---------- Abertura ---------- */
 
